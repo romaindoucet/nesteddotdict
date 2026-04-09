@@ -1,5 +1,6 @@
 # nesteddotdict
 
+[![CI](https://github.com/romaindoucet/nesteddotdict/actions/workflows/ci.yml/badge.svg)](https://github.com/romaindoucet/nesteddotdict/actions/workflows/ci.yml)
 [![PyPI version](https://img.shields.io/pypi/v/nesteddotdict.svg)](https://pypi.org/project/nesteddotdict/)
 [![Python](https://img.shields.io/pypi/pyversions/nesteddotdict.svg)](https://pypi.org/project/nesteddotdict/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
