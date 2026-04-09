@@ -12,6 +12,7 @@ __pycache__/
 # Actual project stuff
 .venv
 .env*
+uv.lock
 
 # Distribution / packaging
 .Python
