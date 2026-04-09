@@ -1,0 +1,35 @@
+[project]
+name = "nesteddotdict"
+version = "0.1.1"
+requires-python = ">=3.9,<=3.13"
+dependencies = [
+    "polars",
+]
+description = "A dot-notation dictionary with nested structure support and Polars/JSON persistence"
+readme = "README.md"
+authors = [{name = "Romain Doucet"}]
+
+[project.urls]
+Repository = "https://github.com/romaindoucet/nesteddotdict"
+
+[project.optional-dependencies]
+dev = [
+    "ruff",
+]
+lab = [
+    "jupyterlab",
+    "jupyterlab_execute_time",
+    "jupyterlab-git",
+    "jupyterlab_code_formatter",
+    "jupyterlab-lsp",
+    "python-lsp-server",
+    "python-lsp-ruff",
+]
+
+[build-system]
+requires = ["setuptools", "wheel", "build"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["nesteddotdict*"]
+exclude = ["notebooks*"]
