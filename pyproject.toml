@@ -27,9 +27,14 @@ classifiers = [
 Repository = "https://github.com/romaindoucet/nesteddotdict"
 
 [project.optional-dependencies]
-dev = [
-    "ruff",
+test = [
     "pytest",
+]
+lint = [
+    "ruff",
+]
+dev = [
+    "nesteddotdict[test,lint]",
 ]
 lab = [
     "jupyterlab",
