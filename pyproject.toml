@@ -15,6 +15,7 @@ Repository = "https://github.com/romaindoucet/nesteddotdict"
 [project.optional-dependencies]
 dev = [
     "ruff",
+    "pytest",
 ]
 lab = [
     "jupyterlab",
